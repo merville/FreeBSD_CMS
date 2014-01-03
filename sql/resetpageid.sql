@@ -1,0 +1,2 @@
+USE freebsdcms;
+ALTER TABLE pages AUTO_INCREMENT=1;

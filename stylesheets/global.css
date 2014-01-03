@@ -1,0 +1,159 @@
+body {
+    background-color: #FFFFFF;
+    background-image: url("/images/logo-full.png");
+    background-repeat: no-repeat;
+    border: 1px solid #000000;
+    font-family: helvetica;
+    font-size: 14px;
+    margin: 20px auto 0;
+    padding: 10px 10px 35px;
+    width: 960px !important;
+}
+html {
+    background-color: olivedrab;
+}
+a {
+    color: #FD5EA9;
+}
+a:hover {
+    background-color: #FDA8D0;
+    color: #FFFFFF;
+}
+#news, #page, #faq {
+   border: 1px solid #DADADA;
+   margin-top: 190px;
+   padding: 20px;
+   min-height: 640px;
+   overflow: auto;
+}
+#timestamp:before {
+    content: "Posted at: ";
+}
+#timestamp {
+    color: #A2A2A2;
+    font-size: 10px;
+    margin-top: 3px;
+}
+#heading {
+    background-color: #B1348C;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+#content {
+    color: #727272;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+#licence, .jstime {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    font-size: 10px;
+    margin-top: 1px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+li {
+    list-style: circle inside;
+}
+.menu-navigation {
+   background-color: #E5E6AD;
+   border: 1px solid #DADADA;
+   padding: 10px;
+   float: right;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+
+h2 {
+    color: tomato;
+    font-weight: 600;
+}
+
+.menulinks {
+    padding: 10px;
+    line-height: 20px;
+}
+
+.ui-menu { 
+    width: 150px; 
+}
+
+#jquerymenu {
+    border: 1px solid #DADADA;
+    margin-bottom: 10px;
+    height: 48px;
+    padding: 5px;
+    background-color: #e8e7cf;
+}
+
+.ui-menu{
+   float: left;
+}
+
+#php {
+    min-height: 640px;
+    margin-top: 160px;
+}
+
+.varchar {
+    background-color: #ced8f8;
+    border: 1px solid #FFF;
+}
+.int {
+    background-color: #cef8f5;
+    border: 1px solid #FFF;
+}
+.textarea {
+    background-color: #e3f3dc;
+    border: 1px solid #FFF;
+}
+.inputname {
+    color: tomato;
+    font-size: 12px;
+    width: 100px;
+    float: left;
+    font-weight: bold;
+}
+.tablehdr {
+    background-color: rosybrown;
+    color: white;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px;
+    width: 22%;
+}
+.tablerow1 {
+    background-color: thistle;
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px;
+    width: 22%;
+}
+.tablerow2 {
+    background-color: oldlace;
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px;
+    width: 22%;
+}
+
+#logout {
+    float: right;
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.loginemail {
+    visibility: hidden !important;
+}
